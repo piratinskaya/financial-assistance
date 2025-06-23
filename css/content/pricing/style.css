@@ -1,0 +1,139 @@
+.pricing__section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  gap: 100px;
+}
+
+.pricing__box {
+  display: flex;
+  flex-direction: row;
+  gap:30px;
+}
+
+.pricing__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border: 1px solid #23A6F0;
+  border-radius: 10px;
+  gap: 35px;
+  padding: 50px 30px;
+}
+
+.pricing__card-title {
+  display: flex;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #252B42;
+
+}
+.pricing__card-description{
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #737373;
+
+}
+
+.pricing__card-price {
+display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.pricing__card-price-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing__card-price-value {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #23A6F0;
+}
+
+.pricing__card-price-unit {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #23A6F0;
+}
+.pricing__card-price-period {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #8EC2F2;
+}
+.pricing__card-price-description {
+display: flex;
+  flex-direction: column;
+}
+
+.pricing__card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 15px;
+}
+
+.pricing__list {
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.pricing__list h6 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+
+}
+.pricing__card-button {
+  display: flex;
+  justify-content: center;
+  width: 279px;
+  height: 52px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  gap: 10px;
+  border-radius: 5px;
+  border-style: unset;
+  background: #23A6F0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+@media (max-width: 1024px) {
+  .pricing__box{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+

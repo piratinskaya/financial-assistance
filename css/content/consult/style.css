@@ -1,0 +1,51 @@
+.consult-section {
+  display: flex;
+flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0px;
+  background: #FAFAFA;
+;
+}
+.consult-button {
+  display: flex;
+  justify-content: center;
+  width: 160px;
+  height: 52px;
+  padding: 15px 0px;
+  gap: 10px;
+  border-radius: 5px;
+  border-style: unset;
+  background: #23A6F0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.consult-head {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #252B42;
+
+}
+
+@media (max-width: 1024px) {
+  .consult-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 26px;
+  }
+
+
+
+  .consult-button {
+    width: unset;
+  }
+}
