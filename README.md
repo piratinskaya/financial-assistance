@@ -4,8 +4,10 @@ A responsive one‑page website for a finance‑consulting service.
 Built with **HTML + SCSS + Webpack 5** and automatically deployed to GitHub Pages.
 
 [**Live demo →**](https://piratinskaya.github.io/financial-assistance/)
-![Deploy](https://img.shields.io/github/deployments/piratinskaya/financial-assistance/github-pages) 
+![Deploy](https://img.shields.io/github/deployments/piratinskaya/financial-assistance/github-pages)
 ![License: MIT](https://img.shields.io/github/license/piratinskaya/financial-assistance)
+![Lighthouse CI](https://github.com/piratinskaya/financial-assistance/actions/workflows/lighthouse-ci.yml/badge.svg?branch=main)
+
 
 ---
 
