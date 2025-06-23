@@ -24,4 +24,4 @@ jobs:
           npx @lhci/cli autorun \
             --config=./lighthouserc.json \
             --upload.target=temporary-public-storage \
-            --upload.githubToken=${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+            --upload.githubToken=""
